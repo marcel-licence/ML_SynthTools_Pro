@@ -203,7 +203,7 @@ jobs:
           ~/Arduino/libraries/ML_SynthTools_Lib
 
         git clone --depth 1 https://github.com/marcel-licence/ML_SynthTools_Pro.git \
-          ~/Arduino/libraries/ML_SynthTools_Lib
+          ~/Arduino/libraries/ML_SynthTools_Pro
 
     - name: Compile Sketch
       run: |
