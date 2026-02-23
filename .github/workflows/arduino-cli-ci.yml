@@ -159,6 +159,15 @@ jobs:
 
         exclude:
           - board:
+              name: "ESP32S2 Dev Module"
+
+          - board:
+              name: "LOLIN S2 Mini"
+
+          - board:
+              name: "ESP32S3 Dev Module"
+
+          - board:
               name: "Generic ESP8266 Module"
 
           - board:
@@ -172,6 +181,9 @@ jobs:
 
           - board:
               name: "Seeeduino XIAO (SAMD21)"
+
+          - board:
+              name: "Generic STM32F4 Series - BlackPill F411CE"
 
           - board:
               name: "XIAO_ESP32C3"
