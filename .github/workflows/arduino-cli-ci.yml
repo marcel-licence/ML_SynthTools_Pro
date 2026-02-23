@@ -202,6 +202,9 @@ jobs:
         git clone --depth 1 https://github.com/marcel-licence/ML_SynthTools_Lib.git \
           ~/Arduino/libraries/ML_SynthTools_Lib
 
+        git clone --depth 1 https://github.com/marcel-licence/ML_SynthTools_Pro.git \
+          ~/Arduino/libraries/ML_SynthTools_Lib
+
     - name: Compile Sketch
       run: |
         FULL_FQBN="${{ matrix.board.fqbn }}"
