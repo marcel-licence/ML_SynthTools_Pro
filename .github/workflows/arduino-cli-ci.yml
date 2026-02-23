@@ -165,9 +165,6 @@ jobs:
               name: "LOLIN S2 Mini"
 
           - board:
-              name: "ESP32S3 Dev Module"
-
-          - board:
               name: "Generic ESP8266 Module"
 
           - board:
