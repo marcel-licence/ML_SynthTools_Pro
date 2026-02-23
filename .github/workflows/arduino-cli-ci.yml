@@ -220,7 +220,7 @@ jobs:
       run: |
         mkdir -p ~/Arduino/libraries
 
-        BRANCH="${{ github.ref_name }}"
+        BRANCH="${{ github.head_ref || github.ref_name }}"
         echo "Using branch: $BRANCH"
        
         # Clone SynthTools (same branch if exists, fallback to main)
